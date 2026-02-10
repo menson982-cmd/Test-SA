@@ -4,7 +4,7 @@
 
 ## Общая схема
 
-![Architecture](task3_architecture/mermaid.png)
+![Architecture](*/mermaid.png)
 
 ## Компоненты
 
