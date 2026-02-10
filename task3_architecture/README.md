@@ -4,7 +4,7 @@
 
 ## Общая схема
 
-![Architecture](task3_architecture/high-level-diagram.svg)
+![Architecture](/high-level-diagram.svg)
 
 ## Компоненты
 
@@ -18,10 +18,10 @@
 ## Потоки данных
 
 ### Abandoned Cart
-![Abandoned Cart](task3_architecture/data-flow-abandoned-cart.svg)
+![Abandoned Cart](/data-flow-abandoned-cart.svg)
 
 ### Order Cancelled
-![Order Cancelled](task3_architecture/data-flow-order-cancelled.svg)
+![Order Cancelled](/data-flow-order-cancelled.svg)
 
 ## Типы уведомлений
 
