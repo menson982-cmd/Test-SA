@@ -18,10 +18,10 @@
 ## Потоки данных
 
 ### Abandoned Cart
-![Abandoned Cart](/data-flow-abandoned-cart.svg)
+![Abandoned Cart](arc/data-flow-abandoned-cart.svg)
 
 ### Order Cancelled
-![Order Cancelled](/data-flow-order-cancelled.svg)
+![Order Cancelled](arc/data-flow-order-cancelled.svg)
 
 ## Типы уведомлений
 
