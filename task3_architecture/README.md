@@ -4,7 +4,7 @@
 
 ## Общая схема
 
-![Architecture](/high-level-diagram.svg)
+![Architecture](/mermaid.png)
 
 ## Компоненты
 
