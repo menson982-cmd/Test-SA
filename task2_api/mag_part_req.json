@@ -1,0 +1,32 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "METRO",
+      "logo_url": "https://cdn.petrushka.ru/logos/metro.png",
+      "delivery_text": "Ближайшая доставка сегодня 21:00-23:00",
+      "partner_link": "https://metro.ru"
+    },
+    {
+      "id": 2,
+      "name": "Ашан",
+      "logo_url": "https://cdn.petrushka.ru/logos/ashan.png",
+      "delivery_text": "Ближайшая доставка сегодня 18:00-20:00",
+      "partner_link": "https://ashan.ru"
+    },
+    {
+      "id": 3,
+      "name": "ВкусВилл",
+      "logo_url": "https://cdn.petrushka.ru/logos/vkusvill.png",
+      "delivery_text": "Быстрая доставка от 20 до 60 минут",
+      "partner_link": "https://vkusvill.ru"
+    },
+    {
+      "id": 4,
+      "name": "ВИКТОРИЯ",
+      "logo_url": "https://cdn.petrushka.ru/logos/viktoria.png",
+      "delivery_text": "Ближайшая доставка сегодня 17:00-19:00",
+      "partner_link": "https://viktoria.ru"
+    }
+  ]
+}
