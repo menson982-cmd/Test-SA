@@ -1,0 +1,30 @@
+name: Render Mermaid Diagrams
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'task3_architecture/*.mmd'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install mermaid-cli
+        run: npm install -g @mermaid-js/mermaid-cli
+        
+      - name: Render diagrams
+        run: |
+          for file in task3_architecture/*.mmd; do
+            npx mmdc -i "$file" -o "${file%.mmd}.svg"
+          done
+          
+      - name: Commit SVG files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add task3_architecture/*.svg
+          git commit -m "Render mermaid diagrams" || echo "No changes"
+          git push
