@@ -10,5 +10,8 @@
   - [Анализ противоречий](task1_requirements/analysis.md)
   - [Исправленная спецификация](task1_requirements/corrected_spec.md)
   - [Уточняющие вопросы](task1_requirements/questions.md)
-- ⏳ Задание 2: Проектирование REST API
-- ⏳ Задание 3: Архитектура PUSH-уведомлений
+- ✅ **Задание 2:** Проектирование REST API
+  - [API для экрана "Магазины-партнёры"](task2_api/task2_api.md)
+  - [Пример ответа](task2_api/mag_part_req.json)
+- ✅ **Задание 3:** Архитектура PUSH-уведомлений
+  - [Верхнеуровневая архитектура системы отправки PUSH-уведомлений для мобильного приложения интернет-магазина.](task3_architecture/readme.md)
